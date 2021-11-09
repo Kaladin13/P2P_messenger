@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libndt.so -o libndt.so CMakeFiles/ndt.dir/main.cpp.o  -lpthread 

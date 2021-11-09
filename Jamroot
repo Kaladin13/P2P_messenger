@@ -1,0 +1,11 @@
+import python ;
+
+project P2P_messenger
+  : requirements
+    <location>.
+    ;
+
+python-extension main : main.cpp ;
+
+alias test : main ;
+explicit test ;
